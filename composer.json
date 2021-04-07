@@ -1,0 +1,20 @@
+{
+  "name": "markuspoerschke/crypto",
+  "description": "Encrypts strings with rot 13.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Markus Poerschke",
+      "email": "markus@poerschke.nrw"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mlssr\\Crypto\\": "src/"
+    }
+  }
+}
